@@ -12,3 +12,7 @@ tasks:
 vscode:
   extensions:
     - redhat.vscode-yaml
+
+vscode:
+  extensions:
+    - 42Crunch.vscode-openapi
