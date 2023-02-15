@@ -21,7 +21,7 @@ Todo Checklist
 
 ## From Week0.md 
 https://github.com/omenking/aws-bootcamp-cruddur-2023/blob/week-0/journal/week0.md
-```
+
 ###Install AWS CLI [Completed]
 <img width="311" alt="gitpodstartup" src="https://user-images.githubusercontent.com/77585708/219138773-f8103e21-f89f-449a-a9ff-c7358dfcde32.png">
 <img width="731" alt="gitpod1" src="https://user-images.githubusercontent.com/77585708/219138794-698afdfa-09d6-4122-9b98-0642ed2e9643.png">
@@ -59,4 +59,3 @@ AWS STS Caller
 ###Create an AWS Budget
 <screen shots>
 	
-```
