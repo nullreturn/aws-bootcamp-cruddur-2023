@@ -17,7 +17,7 @@ Todo Checklist
 ```
 
 
-#PROOF OF WORK
+# PROOF OF WORK (SEE BELOW)
 
 ## From Week0.md 
 https://github.com/omenking/aws-bootcamp-cruddur-2023/blob/week-0/journal/week0.md
@@ -41,7 +41,6 @@ https://github.com/omenking/aws-bootcamp-cruddur-2023/blob/week-0/journal/week0.
 <screenshot>
 
 AWS STS Caller
-<br>	
 <img width="403" alt="sts" src="https://user-images.githubusercontent.com/77585708/219139244-4836c149-8068-4840-9f81-cf91d25f853e.png">
 <br>
 
