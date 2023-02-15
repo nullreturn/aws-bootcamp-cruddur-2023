@@ -60,7 +60,10 @@ https://github.com/omenking/aws-bootcamp-cruddur-2023/blob/week-0/journal/week0.
 
 
 ## SNS TOPIC
-<screen shots>
+![image](https://user-images.githubusercontent.com/77585708/219171637-965e74d3-2761-43e9-8b04-71511e9c4879.png)
+![image](https://user-images.githubusercontent.com/77585708/219171866-475f84b6-9847-4dbe-8542-e31105d92c7f.png)
+![image](https://user-images.githubusercontent.com/77585708/219172150-051e2575-087d-4153-9546-105fe2ce1ebb.png)
+
 
 ## Create Alarm
 
