@@ -22,7 +22,9 @@ Todo Checklist
 ## From Week0.md 
 https://github.com/omenking/aws-bootcamp-cruddur-2023/blob/week-0/journal/week0.md
 
-## <b>ENABLED MFA OF AWS</b>
+## <b>ENABLED MFA OF AWS(both root and IAM)</b>
+![image](https://user-images.githubusercontent.com/77585708/219154801-6f515191-fb5d-46b1-9570-efa559f60b5d.png)
+
 
 ## Install AWS CLI [Completed]
 <img width="311" alt="gitpodstartup" src="https://user-images.githubusercontent.com/77585708/219138773-f8103e21-f89f-449a-a9ff-c7358dfcde32.png">
@@ -38,8 +40,9 @@ https://github.com/omenking/aws-bootcamp-cruddur-2023/blob/week-0/journal/week0.
 <sceenshot>
 
 ## Set Env Vars
-<screenshot>
+<img width="335" alt="printenv" src="https://user-images.githubusercontent.com/77585708/219153623-af1024bd-32df-444e-a6f9-e5afe51c8feb.png">
 
+	
 ## AWS STS Caller
 <img width="374" alt="sts" src="https://user-images.githubusercontent.com/77585708/219151915-0e2f8d30-3462-4931-9140-7282908ec7ca.png">
 
@@ -49,10 +52,12 @@ https://github.com/omenking/aws-bootcamp-cruddur-2023/blob/week-0/journal/week0.
 
 
 ## Enable Billing
-<screen shots>
+![image](https://user-images.githubusercontent.com/77585708/219157318-26879212-9941-4e13-92e5-016c4681d866.png)
+
 
 ## Billing Alarm
-<screen shots>
+![image](https://user-images.githubusercontent.com/77585708/219156868-74b4582c-2dbf-4527-bbc1-cb08b0225c21.png)
+
 
 ## SNS TOPIC
 <screen shots>
