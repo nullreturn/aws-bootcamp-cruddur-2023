@@ -22,9 +22,9 @@ Todo Checklist
 ## From Week0.md 
 https://github.com/omenking/aws-bootcamp-cruddur-2023/blob/week-0/journal/week0.md
 
-<b>ENABLED MFA OF AWS<b>
+## <b>ENABLED MFA OF AWS<b>
 
-###Install AWS CLI [Completed]
+##Install AWS CLI [Completed]
 <br>
 <img width="311" alt="gitpodstartup" src="https://user-images.githubusercontent.com/77585708/219138773-f8103e21-f89f-449a-a9ff-c7358dfcde32.png">
 <br>
