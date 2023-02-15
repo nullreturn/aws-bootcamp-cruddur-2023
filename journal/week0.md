@@ -28,6 +28,7 @@ https://github.com/omenking/aws-bootcamp-cruddur-2023/blob/week-0/journal/week0.
 
 
 ###"Update our .gitpod.yml to include the following task."
+<br>
 <img width="674" alt="yaml" src="https://user-images.githubusercontent.com/77585708/219138699-7e266fa7-a424-4448-b3fd-ddfe5531bc9f.png">
 
 ###Create a new User and Generate AWS Credentials
@@ -37,6 +38,7 @@ https://github.com/omenking/aws-bootcamp-cruddur-2023/blob/week-0/journal/week0.
 <screenshot>
 
 AWS STS Caller
+<br>	
 <img width="403" alt="sts" src="https://user-images.githubusercontent.com/77585708/219139244-4836c149-8068-4840-9f81-cf91d25f853e.png">
 
 
