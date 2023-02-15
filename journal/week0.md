@@ -24,22 +24,20 @@ https://github.com/omenking/aws-bootcamp-cruddur-2023/blob/week-0/journal/week0.
 
 ## <b>ENABLED MFA OF AWS<b>
 
-##Install AWS CLI [Completed]
-<br>
+## Install AWS CLI [Completed]
 <img width="311" alt="gitpodstartup" src="https://user-images.githubusercontent.com/77585708/219138773-f8103e21-f89f-449a-a9ff-c7358dfcde32.png">
 <br>
 <img width="731" alt="gitpod1" src="https://user-images.githubusercontent.com/77585708/219138794-698afdfa-09d6-4122-9b98-0642ed2e9643.png">
 <br>
 
-###"Update our .gitpod.yml to include the following task."
-<br>
+##"Update our .gitpod.yml to include the following task."
 <img width="674" alt="yaml" src="https://user-images.githubusercontent.com/77585708/219138699-7e266fa7-a424-4448-b3fd-ddfe5531bc9f.png">
 <br>
 
 ##Create a new User and Generate AWS Credentials
 <sceenshot>
 
-###Set Env Vars
+##Set Env Vars
 <screenshot>
 
 AWS STS Caller
@@ -50,7 +48,7 @@ AWS STS Caller
 ##Check that the AWS CLI is working and you are the expected user
 <screenshot>
 
------------------------------------------------------------------------------------------------
+
 ##Enable Billing
 <screen shots>
 
