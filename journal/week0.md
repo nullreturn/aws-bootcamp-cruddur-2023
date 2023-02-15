@@ -21,19 +21,32 @@ Todo Checklist
 ## From Week0.md https://github.com/omenking/aws-bootcamp-cruddur-2023/blob/week-0/journal/week0.md
 ```
 ###Install AWS CLI [Completed]
-"Update our .gitpod.yml to include the following task."
 <screenshot here>
 
+###"Update our .gitpod.yml to include the following task."
 
 ###Create a new User and Generate AWS Credentials
 <sceenshot>
 
+###Set Env Vars
+<screenshot>
+
+###Check that the AWS CLI is working and you are the expected user
+<screenshot>
+
+-----------------------------------------------------------------------------------------------
 ###Enable Billing
 <screen shots>
+
 ###Billing Alarm
 <screen shots>
+
 ###SNS TOPIC
 <screen shots>
+
+###Create Alarm
+
+
 ###Create an AWS Budget
 <screen shots>
 	
