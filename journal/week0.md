@@ -22,27 +22,27 @@ Todo Checklist
 ## From Week0.md 
 https://github.com/omenking/aws-bootcamp-cruddur-2023/blob/week-0/journal/week0.md
 
-## <b>ENABLED MFA OF AWS<b>
+## <b>ENABLED MFA OF AWS</b>
 
 ## Install AWS CLI [Completed]
 <img width="311" alt="gitpodstartup" src="https://user-images.githubusercontent.com/77585708/219138773-f8103e21-f89f-449a-a9ff-c7358dfcde32.png">
 <br>
 <img width="731" alt="gitpod1" src="https://user-images.githubusercontent.com/77585708/219138794-698afdfa-09d6-4122-9b98-0642ed2e9643.png">
-<br>
 
-##"Update our .gitpod.yml to include the following task."
+
+## "Update our .gitpod.yml to include the following task."
 <img width="674" alt="yaml" src="https://user-images.githubusercontent.com/77585708/219138699-7e266fa7-a424-4448-b3fd-ddfe5531bc9f.png">
-<br>
 
-##Create a new User and Generate AWS Credentials
+
+## Create a new User and Generate AWS Credentials
 <sceenshot>
 
-##Set Env Vars
+## Set Env Vars
 <screenshot>
 
-AWS STS Caller
-<img width="403" alt="sts" src="https://user-images.githubusercontent.com/77585708/219139244-4836c149-8068-4840-9f81-cf91d25f853e.png">
-<br>
+## AWS STS Caller
+<img width="374" alt="sts" src="https://user-images.githubusercontent.com/77585708/219151915-0e2f8d30-3462-4931-9140-7282908ec7ca.png">
+
 
 ## Check that the AWS CLI is working and you are the expected user
 <screenshot>
