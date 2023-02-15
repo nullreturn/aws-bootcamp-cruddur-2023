@@ -45,22 +45,22 @@ AWS STS Caller
 <img width="403" alt="sts" src="https://user-images.githubusercontent.com/77585708/219139244-4836c149-8068-4840-9f81-cf91d25f853e.png">
 <br>
 
-##Check that the AWS CLI is working and you are the expected user
+## Check that the AWS CLI is working and you are the expected user
 <screenshot>
 
 
-##Enable Billing
+## Enable Billing
 <screen shots>
 
-##Billing Alarm
+## Billing Alarm
 <screen shots>
 
-##SNS TOPIC
+## SNS TOPIC
 <screen shots>
 
-##Create Alarm
+## Create Alarm
 
 
-##Create an AWS Budget
+## Create an AWS Budget
 <screen shots>
 	
