@@ -66,11 +66,13 @@ https://github.com/omenking/aws-bootcamp-cruddur-2023/blob/week-0/journal/week0.
 
 
 ## Create Alarm
+![image](https://user-images.githubusercontent.com/77585708/219176032-bb739992-3298-4272-af57-686eabb493f7.png)
 
 
 ## Create an AWS Budget
 <screen shots>
 
-##Cruddur Logic Diagram
+## LUCID CHARTS - Cruddur Logic Diagram
 ![Cruddur Logic Diagram](https://user-images.githubusercontent.com/77585708/219173128-fbfc823a-3e18-4037-8a6e-2d52856e399a.png)
 
+https://lucid.app/lucidchart/9b29ec5a-e75b-47a1-8942-52f778d6749c/edit?viewport_loc=-1840%2C-315%2C5120%2C2512%2C0_0&invitationId=inv_d4eae986-5832-4c6f-a09b-edbfd2093ce3
