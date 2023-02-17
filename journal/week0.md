@@ -72,8 +72,17 @@ Created an alarm. Confirmed alarm via email
 ![image](https://github.com/nullreturn/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week0/snsconfirmed1.png)
 
 ## Cloud Trails
+Created Cloud Trails to audit changes within AWS. Will be useful to do foresenics on any changes made
 ![image](https://github.com/nullreturn/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week0/21trails.png)
+
+## Orgization Units
+Created OUs to divide users by departments. I'm familar with OUs from Active Directory and it seems the same in AWS
+![image](https://github.com/nullreturn/aws-bootcamp-cruddur-2023/blob/9c6bb2c1b51a6325c7b01da55f34d0a1962659ba/journal/assets/week0/OU.png)
+
+## Created SCP
+useful to have OUs to divide departments and workflows. Prevented users from leaving OUs which I learned from Bootcamp
 ![image](https://github.com/nullreturn/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week0/21aservicecontrols.png)
+
 
 ## LUCID CHARTS - Cruddur Logic Diagram
 ![Cruddur Logic Diagram](https://user-images.githubusercontent.com/77585708/219173128-fbfc823a-3e18-4037-8a6e-2d52856e399a.png)
