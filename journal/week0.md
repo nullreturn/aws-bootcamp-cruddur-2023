@@ -23,10 +23,12 @@ Todo Checklist
 https://github.com/omenking/aws-bootcamp-cruddur-2023/blob/week-0/journal/week0.md
 
 ## <b>ENABLED MFA OF AWS(both root and IAM)</b>
-![image](https://user-images.githubusercontent.com/77585708/219154801-6f515191-fb5d-46b1-9570-efa559f60b5d.png)
+I enabled MFA for both root user and IAM users.
+![image](https://github.com/nullreturn/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week0/5iamusers.png?raw=true)
 
 
 ## Install AWS CLI [Completed]
+Installed CLI for use with gitpod. I use powershell/azure CLI so its not unfamilar to me. Pretty useful for more complex tasks and scripting
 <img width="311" alt="gitpodstartup" src="https://user-images.githubusercontent.com/77585708/219138773-f8103e21-f89f-449a-a9ff-c7358dfcde32.png">
 <br>
 <img width="731" alt="gitpod1" src="https://user-images.githubusercontent.com/77585708/219138794-698afdfa-09d6-4122-9b98-0642ed2e9643.png">
@@ -40,6 +42,7 @@ https://github.com/omenking/aws-bootcamp-cruddur-2023/blob/week-0/journal/week0.
 <sceenshot>
 
 ## Set Env Vars
+Made the ENV Vars permamante so won't have to set them for each new workspace within Git
 <img width="335" alt="printenv" src="https://user-images.githubusercontent.com/77585708/219153623-af1024bd-32df-444e-a6f9-e5afe51c8feb.png">
 
 	
