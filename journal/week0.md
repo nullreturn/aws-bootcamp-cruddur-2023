@@ -61,12 +61,15 @@ Created a budget with both AWS site and through the CLI (watched the Andrew.. vi
 ![image](https://github.com/nullreturn/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week0/6cbudget.png)
 
 ## SNS TOPIC
+Created an SNS topic in order to receive alarms when over billing occurs. Created with both AWS site and CLI 
 ![image](https://github.com/nullreturn/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week0/10asns.png)
 ![image](https://github.com/nullreturn/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week0/10snsconfirm.png)
 
 
 ## Create Alarm
+Created an alarm. Confirmed alarm via email 
 ![image](https://github.com/nullreturn/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week0/11snscreate.png)
+![image](https://github.com/nullreturn/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week0/snsconfirmed.png)
 
 ## Cloud Trails
 ![image](https://github.com/nullreturn/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week0/21trails.png)
