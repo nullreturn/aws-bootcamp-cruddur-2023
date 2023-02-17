@@ -29,14 +29,13 @@ I enabled MFA for both root user and IAM users.
 
 ## Install AWS CLI [Completed]
 Installed CLI for use with gitpod. I use powershell/azure CLI so its not unfamilar to me. Pretty useful for more complex tasks and scripting
-<img width="311" alt="gitpodstartup" src="https://user-images.githubusercontent.com/77585708/219138773-f8103e21-f89f-449a-a9ff-c7358dfcde32.png">
-<br>
-<img width="731" alt="gitpod1" src="https://user-images.githubusercontent.com/77585708/219138794-698afdfa-09d6-4122-9b98-0642ed2e9643.png">
+![image](https://github.com/nullreturn/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week0/gitpodstartup.png)
+![image](https://github.com/nullreturn/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week0/gitpodstartup2.png)
 
 
 ## "Update our .gitpod.yml to include the following task."
-<img width="674" alt="yaml" src="https://user-images.githubusercontent.com/77585708/219138699-7e266fa7-a424-4448-b3fd-ddfe5531bc9f.png">
-
+In gitpod, basically just followed the video by Andrew and modified my .yaml then pushed it. Now AWS cli will installed automatically for every new workspace within GitPod. Makes life much easier 
+![image](https://github.com/nullreturn/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week0/4yaml.png)
 
 ## Create a new User and Generate AWS Credentials
 <sceenshot>
@@ -50,12 +49,8 @@ Made the ENV Vars permamante so won't have to set them for each new workspace wi
 <img width="374" alt="sts" src="https://user-images.githubusercontent.com/77585708/219151915-0e2f8d30-3462-4931-9140-7282908ec7ca.png">
 
 
-## Check that the AWS CLI is working and you are the expected user
-<screenshot>
-
-
 ## Enable Billing
-![image](https://user-images.githubusercontent.com/77585708/219157318-26879212-9941-4e13-92e5-016c4681d866.png)
+![image](https://github.com/nullreturn/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week0/6billing.png)
 
 
 ## Billing Alarm
