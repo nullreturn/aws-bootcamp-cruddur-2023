@@ -94,13 +94,12 @@ https://docs.aws.amazon.com/servicequotas/latest/userguide/request-quota-increas
 
 
 ## Well Architected Tool
-<ol>
-<il>operational excellence<il>
-<il>security</il>
-<il>reliability</il>
-<il>performance</il>
-<il>cost optimization</il> 
-</ol>
+<il>1. operational excellence<il>
+<il>2. security</il>
+<il>3. reliability</il>
+<il>4. performance</il>
+<il>5. cost optimization</il> 
+
 ## LUCID CHARTS - Cruddur Logic Diagram
 ![image](https://user-images.githubusercontent.com/77585708/219173128-fbfc823a-3e18-4037-8a6e-2d52856e399a.png)
 
