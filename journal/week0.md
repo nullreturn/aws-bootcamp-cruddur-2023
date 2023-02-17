@@ -83,6 +83,13 @@ Created OUs to divide users by departments. I'm familar with OUs from Active Dir
 useful to have OUs to divide departments and workflows. Prevented users from leaving OUs which I learned from Bootcamp
 ![image](https://github.com/nullreturn/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week0/21aservicecontrols.png)
 
+## EventBridge to hookup Health Dashboard to SNS and send notification
+Now can receive health related alerts to SNS notificaitons and know when something goes down
+![image](https://github.com/nullreturn/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week0/99snseventbrig.png)
+
+## Increasing service limits
+https://docs.aws.amazon.com/servicequotas/latest/userguide/request-quota-increase.html
+![image](https://github.com/nullreturn/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week0/99qoutaincrease.png)
 
 ## LUCID CHARTS - Cruddur Logic Diagram
 ![Cruddur Logic Diagram](https://user-images.githubusercontent.com/77585708/219173128-fbfc823a-3e18-4037-8a6e-2d52856e399a.png)
