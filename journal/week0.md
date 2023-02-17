@@ -22,6 +22,11 @@ Todo Checklist
 ## From Week0.md 
 https://github.com/omenking/aws-bootcamp-cruddur-2023/blob/week-0/journal/week0.md
 
+## Created IAM USER
+best practice not to work out of the ROOT account and use an IAM with assigned groups/policies. Followed the videos and did so. Have a user that has admin group and access to billing. Created another user later on for just read access (accesing logs& audits after) 
+![image](https://github.com/nullreturn/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week0/5iamusers.png)
+
+
 ## <b>ENABLED MFA OF AWS(both root and IAM)</b>
 I enabled MFA for both root user and IAM users.
 ![image](https://github.com/nullreturn/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week0/mfaroot.png)
@@ -58,16 +63,16 @@ Made the ENV Vars permamante so won't have to set them for each new workspace wi
 ![image](https://github.com/nullreturn/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week0/6cbudget.png)
 
 ## SNS TOPIC
-![image](https://user-images.githubusercontent.com/77585708/219171637-965e74d3-2761-43e9-8b04-71511e9c4879.png)
-![image](https://user-images.githubusercontent.com/77585708/219172150-051e2575-087d-4153-9546-105fe2ce1ebb.png)
+![image](https://github.com/nullreturn/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week0/10asns.png)
+![image](https://github.com/nullreturn/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week0/10snsconfirm.png)
 
 
 ## Create Alarm
-![image](https://user-images.githubusercontent.com/77585708/219176032-bb739992-3298-4272-af57-686eabb493f7.png)
+![image](https://github.com/nullreturn/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week0/11snscreate.png)
 
-
-## Create an AWS Budget
-<screen shots>
+## Cloud Trails
+![image](https://github.com/nullreturn/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week0/21trails.png)
+![image](https://github.com/nullreturn/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week0/21aservicecontrols.png)
 
 ## LUCID CHARTS - Cruddur Logic Diagram
 ![Cruddur Logic Diagram](https://user-images.githubusercontent.com/77585708/219173128-fbfc823a-3e18-4037-8a6e-2d52856e399a.png)
