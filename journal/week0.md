@@ -22,7 +22,7 @@ Todo Checklist
 ## From Week0.md 
 https://github.com/omenking/aws-bootcamp-cruddur-2023/blob/week-0/journal/week0.md
 
-## Created IAM USER
+## Create a new User and Generate AWS Credentials
 best practice not to work out of the ROOT account and use an IAM with assigned groups/policies. Followed the videos and did so. Have a user that has admin group and access to billing. Created another user later on for just read access (accesing logs& audits after) 
 ![image](https://github.com/nullreturn/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week0/5iamusers.png)
 
@@ -42,17 +42,12 @@ Installed CLI for use with gitpod. I use powershell/azure CLI so its not unfamil
 In gitpod, basically just followed the video by Andrew and modified my .yaml then pushed it. Now AWS cli will installed automatically for every new workspace within GitPod. Makes life much easier 
 ![image](https://github.com/nullreturn/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week0/4yaml.png)
 
-## Create a new User and Generate AWS Credentials
-<sceenshot>
-
 ## Set Env Vars
 Made the ENV Vars permamante so won't have to set them for each new workspace within Git
-<img width="335" alt="printenv" src="https://user-images.githubusercontent.com/77585708/219153623-af1024bd-32df-444e-a6f9-e5afe51c8feb.png">
-
+![image](https://github.com/nullreturn/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week0/7printenv.png)
 	
 ## AWS STS Caller
-<img width="374" alt="sts" src="https://user-images.githubusercontent.com/77585708/219151915-0e2f8d30-3462-4931-9140-7282908ec7ca.png">
-
+![image](https://github.com/nullreturn/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week0/6sts.png)
 
 ## Enable Billing
 ![image](https://github.com/nullreturn/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week0/6billing.png)
