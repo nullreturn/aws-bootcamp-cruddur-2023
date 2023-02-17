@@ -53,13 +53,12 @@ Made the ENV Vars permamante so won't have to set them for each new workspace wi
 ![image](https://github.com/nullreturn/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week0/6billing.png)
 
 
-## Billing Alarm
-![image](https://user-images.githubusercontent.com/77585708/219156868-74b4582c-2dbf-4527-bbc1-cb08b0225c21.png)
-
+## Budgeting & Billing Alarm
+![image](https://github.com/nullreturn/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week0/6bbillingalarm.png)
+![image](https://github.com/nullreturn/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week0/6cbudget.png)
 
 ## SNS TOPIC
 ![image](https://user-images.githubusercontent.com/77585708/219171637-965e74d3-2761-43e9-8b04-71511e9c4879.png)
-![image](https://user-images.githubusercontent.com/77585708/219171866-475f84b6-9847-4dbe-8542-e31105d92c7f.png)
 ![image](https://user-images.githubusercontent.com/77585708/219172150-051e2575-087d-4153-9546-105fe2ce1ebb.png)
 
 
