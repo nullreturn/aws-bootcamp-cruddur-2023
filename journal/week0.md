@@ -88,6 +88,7 @@ Now can receive health related alerts to SNS notificaitons and know when somethi
 ![image](https://github.com/nullreturn/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week0/99snseventbrig.png)
 
 ## Increasing service limits
+I followed the document below and submitted a ticket to increase the quota size of EC2
 https://docs.aws.amazon.com/servicequotas/latest/userguide/request-quota-increase.html
 ![image](https://github.com/nullreturn/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week0/99qoutaincrease.png)
 ![image](https://github.com/nullreturn/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week0/999pendingrequest.png)
