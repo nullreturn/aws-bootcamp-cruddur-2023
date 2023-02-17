@@ -24,7 +24,7 @@ https://github.com/omenking/aws-bootcamp-cruddur-2023/blob/week-0/journal/week0.
 
 ## <b>ENABLED MFA OF AWS(both root and IAM)</b>
 I enabled MFA for both root user and IAM users.
-![image](https://github.com/nullreturn/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week0/5iamusers.png?raw=true)
+![image](https://github.com/nullreturn/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week0/mfaroot.png)
 
 
 ## Install AWS CLI [Completed]
