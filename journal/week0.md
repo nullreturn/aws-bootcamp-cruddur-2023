@@ -47,13 +47,16 @@ Made the ENV Vars permamante so won't have to set them for each new workspace wi
 ![image](https://github.com/nullreturn/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week0/7printenv.png)
 	
 ## AWS STS Caller
+ran aws sts get-caller... to prove who am I...
 ![image](https://github.com/nullreturn/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week0/6sts.png)
 
 ## Enable Billing
+I enabled Billing through AWS. Did it through Account settings and used my email. I will need to keep track of all expenses for this bootcamp.
 ![image](https://github.com/nullreturn/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week0/6billing.png)
 
 
 ## Budgeting & Billing Alarm
+Created a budget with both AWS site and through the CLI (watched the Andrew.. videos for that). Recieved an alarm to my email which I monitor
 ![image](https://github.com/nullreturn/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week0/6bbillingalarm.png)
 ![image](https://github.com/nullreturn/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week0/6cbudget.png)
 
