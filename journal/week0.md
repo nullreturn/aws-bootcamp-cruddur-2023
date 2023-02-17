@@ -69,7 +69,7 @@ Created an SNS topic in order to receive alarms when over billing occurs. Create
 ## Create Alarm
 Created an alarm. Confirmed alarm via email 
 ![image](https://github.com/nullreturn/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week0/11snscreate.png)
-![image](https://github.com/nullreturn/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week0/snsconfirmed.png)
+![image](https://github.com/nullreturn/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week0/snsconfirmed1.png)
 
 ## Cloud Trails
 ![image](https://github.com/nullreturn/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week0/21trails.png)
