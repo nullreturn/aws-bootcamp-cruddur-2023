@@ -100,6 +100,12 @@ https://docs.aws.amazon.com/servicequotas/latest/userguide/request-quota-increas
 <il>3. reliability</il>
 <il>4. performance</il>
 <il>5. cost optimization</il> 
+	
+## Concept Chart/Napkin
+basic idea - user from internet hits load balancer/dns/firewall - then to front end to cruddr app - then to backend which communicates to the db
+![image](https://github.com/nullreturn/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week0/concept.png)
+	
+https://lucid.app/lucidchart/0cfd1fd6-1fc2-4c06-aaa8-995b3ea2c52d/edit?view_items=qreyQNHT3edT&invitationId=inv_80ec79c7-b5ca-4a6f-b7cf-32cec3cbfaeb
 
 ## LUCID CHARTS - Cruddur Logic Diagram
 ![image](https://user-images.githubusercontent.com/77585708/219173128-fbfc823a-3e18-4037-8a6e-2d52856e399a.png)
