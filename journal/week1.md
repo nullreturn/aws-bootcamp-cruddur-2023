@@ -43,6 +43,11 @@ docker ps
 ''
 ![image](https://user-images.githubusercontent.com/77585708/220184972-8a880e1a-d5a7-44b2-8fae-582a2d565983.png)
 
+## run docker background
+''
+docker run --rm -d -p 4567:4567 -it -e FRONTEND_URL='*' -e BACKEND_URL='*' backend-flask
+''
+
 check running docker images
 ''docker image''
 ![image](https://user-images.githubusercontent.com/77585708/220185060-aae3c657-a25d-46fb-8bc8-07cff4cd6dc0.png)
