@@ -36,6 +36,24 @@ Mount directories so we can make changes while we code
 <img width="1229" alt="10dockercomposefrontend1" src="https://user-images.githubusercontent.com/77585708/219997647-0c33e2cd-d645-4af7-bcb8-5c22fa3bf153.png">
 ![cbrundocker](https://user-images.githubusercontent.com/77585708/219997855-6acaceb4-e762-4343-a120-7bfc466a134c.png)
 
+
+
+## Containerize Frontend
+<screeenshot1>
+
+
+## Run NPM Install
+
+notication tabs is not working so will have to  need to add endpoint for notificaiton tabs
+
+
+
+
+
+
+
+
+
 ## homework
 Run the dockerfile CMD as an external script
 Push and tag a image to DockerHub (they have a free tier)
