@@ -47,6 +47,9 @@ check running docker images
 ''docker image''
 ![image](https://user-images.githubusercontent.com/77585708/220185060-aae3c657-a25d-46fb-8bc8-07cff4cd6dc0.png)
 
+## kill docker
+docker kill [docker name] 
+get name from docker ps
 
 ## Send Curl to Test Server
 grabs content from webpage and oututs to console
