@@ -77,8 +77,21 @@ curl -X GET http://localhost:4567/api/activities/home -H "Accept: application/js
 notication tabs is not working so will have to  need to add endpoint for notificaiton tabs
 
 
+### Backend notification endpoint changes
+
+created a notifications_activites.py in order to create notification funciton, in backend-flask and used home_activities as a template.
+
+<screenshots>
 
 
+### Frontend notifications endpoint changes
+Frontend uses react client then mounts the app into root. React router handles all the route. A new page had to be created in app.js so React will know how to route it 
+<screen5>
+
+I had to create the notificationpage because import NotificationsFeedPage from './pages/NotificationsFeedPage' did not exist within /pages along with a .css
+
+## final results of 
+  ![image](https://user-images.githubusercontent.com/77585708/220458672-2f52926b-92de-4a87-9dd1-e7bf98e9b642.png)
 
 
 
