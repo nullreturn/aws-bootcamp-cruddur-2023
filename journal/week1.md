@@ -94,9 +94,33 @@ I had to create the notificationpage because import NotificationsFeedPage from '
   ![image](https://user-images.githubusercontent.com/77585708/220458672-2f52926b-92de-4a87-9dd1-e7bf98e9b642.png)
 
 
+## creating a table to test if dynmo db works
+![image](https://user-images.githubusercontent.com/77585708/220461951-dac64e8e-3aeb-4546-8726-13b9d8ebe7b1.png)
 
+ code used from 100 days of cloud.. returns output indicating that the records have been created 
 
+  ##item has been created
+![image](https://user-images.githubusercontent.com/77585708/220462252-feff4ba3-ed8d-43e3-a581-598cb1b0be24.png)
 
+ ## listing tables
+![image](https://user-images.githubusercontent.com/77585708/220462405-58d1b47f-5f9c-439a-b283-345920fcfa8d.png)
+output shows that a table has been created 
+
+ ## Get records
+
+  ![image](https://user-images.githubusercontent.com/77585708/220462711-0820bcf3-8fe9-4120-81cf-14d30aebdc71.png)
+ 
+  ## Postgres
+  
+  database explorer test
+![image](https://user-images.githubusercontent.com/77585708/220466250-7ffc1ec8-9fb2-4469-8039-4961576f5dcd.png)
+
+  ##postgres cleint connecting terminal
+have to specify localhost in order to connect 
+  ![image](https://user-images.githubusercontent.com/77585708/220467399-e34210c6-a340-4f67-96ce-a7e1c59bc41c.png)
+  
+
+  
 ## homework
 Run the dockerfile CMD as an external script
 Push and tag a image to DockerHub (they have a free tier)
