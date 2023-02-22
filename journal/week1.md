@@ -123,8 +123,13 @@ have to specify localhost in order to connect
   
 ## homework
 Run the dockerfile CMD as an external script
-Push and tag a image to DockerHub (they have a free tier)
-Use multi-stage building for a Dockerfile build
+
+## Push and tag a image to DockerHub (they have a free tier)
+![1dockerpushimagecorrect](https://user-images.githubusercontent.com/77585708/220498272-8bad2296-1c91-427d-a401-ee04d6cd9df8.png)
+![2dockerpushcorrect](https://user-images.githubusercontent.com/77585708/220498278-229cf9ef-100a-4732-8cb3-b10da11d0616.png)
+![3dockerpushcorrect](https://user-images.githubusercontent.com/77585708/220498316-af490a5b-84f8-416c-8f58-8c6f8f08f54d.png)
+
+  Use multi-stage building for a Dockerfile build
 Implement a healthcheck in the V3 Docker compose file
 Research best practices of Dockerfiles and attempt to implement it in your Dockerfile
 Learn how to install Docker on your localmachine and get the same containers running outside of Gitpod / Codespaces
