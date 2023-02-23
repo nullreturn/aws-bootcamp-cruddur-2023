@@ -130,9 +130,21 @@ Run the dockerfile CMD as an external script
 ![3dockerpushcorrect](https://user-images.githubusercontent.com/77585708/220498316-af490a5b-84f8-416c-8f58-8c6f8f08f54d.png)
   https://hub.docker.com/r/containofcontainers/awsbootcamp
 
-  Use multi-stage building for a Dockerfile build
+Use multi-stage building for a Dockerfile build
 Implement a healthcheck in the V3 Docker compose file
 Research best practices of Dockerfiles and attempt to implement it in your Dockerfile
-Learn how to install Docker on your localmachine and get the same containers running outside of Gitpod / Codespaces
-Launch an EC2 instance that has docker installed, and pull a container to demonstrate you can run your own docker processes. 
 
+  Learn how to install Docker on your localmachine and get the same containers running outside of Gitpod / Codespaces
+
+## Launch an EC2 instance that has docker installed, and pull a container to demonstrate you can run your own docker processes. 
+- I've created an EC2 Ubuntu instance with free tier settings
+- allowed http/https/and other ports just for sake of the lab
+- ssh into the aws box
+- updated packages, installed docker then picked midnight commander in docker hub since its an easy demo
+- and the obligatory neofetch screenshot
+<img width="400" alt="2neofetch" src="https://user-images.githubusercontent.com/77585708/220981382-bb886fba-ec7c-402d-928f-ee013fc28f13.png">
+<img width="529" alt="3dockerinstallrun" src="https://user-images.githubusercontent.com/77585708/220981413-2c50f5c7-8d1d-4fe1-8119-80eb9b8263d4.png">
+<img width="578" alt="4mcrunning" src="https://user-images.githubusercontent.com/77585708/220981432-9d4d47dd-15f6-4c4a-8053-db6b1b26cbac.png">
+
+ 
+  
