@@ -121,21 +121,41 @@ have to specify localhost in order to connect
   
 
   
-## homework
-Run the dockerfile CMD as an external script
+  ## <b>HOMEWORK</b>
 
+## Run the dockerfile CMD as an external script
+- Modified the dockerfile to use RUN python ./python3flask.py instead of CMD
+- it ran but had to fiddle around a bit 
+  ![image](https://user-images.githubusercontent.com/77585708/221247403-1f8e2eab-31a1-4da2-89a0-e2242550834f.png)
+
+  
 ## Push and tag a image to DockerHub (they have a free tier)
+- Created a dockerhub account
+- then I built an image and pushed it with a tag to dockerhub
+- see screens and link below
+  
+  
 ![1dockerpushimagecorrect](https://user-images.githubusercontent.com/77585708/220498272-8bad2296-1c91-427d-a401-ee04d6cd9df8.png)
 ![2dockerpushcorrect](https://user-images.githubusercontent.com/77585708/220498278-229cf9ef-100a-4732-8cb3-b10da11d0616.png)
 ![3dockerpushcorrect](https://user-images.githubusercontent.com/77585708/220498316-af490a5b-84f8-416c-8f58-8c6f8f08f54d.png)
   https://hub.docker.com/r/containofcontainers/awsbootcamp
 
-Use multi-stage building for a Dockerfile build
-Implement a healthcheck in the V3 Docker compose file
-Research best practices of Dockerfiles and attempt to implement it in your Dockerfile
+##Use multi-stage building for a Dockerfile build
 
-  Learn how to install Docker on your localmachine and get the same containers running outside of Gitpod / Codespaces
+## Implement a healthcheck in the V3 Docker compose file
 
+## Research best practices of Dockerfiles and attempt to implement it in your Dockerfile
+
+## Learn how to install Docker on your localmachine and get the same containers running outside of Gitpod / Codespaces
+I have a Macbook with OSX so I've used that as a localmachine.
+- installed Docker
+- installed homebrew and npm
+- used github clone my repo
+- made changes in my firewall so didn't have to worry about ports
+- used docker-compose up -d and also Visual Code studio (testing it out - pretty much the same as gitpod.io)
+- Then, was able to get the docker containers working 
+  
+  
 ## Launch an EC2 instance that has docker installed, and pull a container to demonstrate you can run your own docker processes. 
 - I've created an EC2 Ubuntu instance with free tier settings
 - allowed http/https/and other ports just for sake of the lab
@@ -144,11 +164,8 @@ Research best practices of Dockerfiles and attempt to implement it in your Docke
 - and the obligatory neofetch screenshot
 <img width="400" alt="2neofetch" src="https://user-images.githubusercontent.com/77585708/220981382-bb886fba-ec7c-402d-928f-ee013fc28f13.png">
 <img width="529" alt="3dockerinstallrun" src="https://user-images.githubusercontent.com/77585708/220981413-2c50f5c7-8d1d-4fe1-8119-80eb9b8263d4.png">
-<img width="578" alt="4mcrunning" src="https://user-images.githubusercontent.com/77585708/220981432-9d4d47dd-15f6-4c4a-8053-db6b1b26cbac.png">
-
- 
-  ![1docker](https://user-images.githubusercontent.com/77585708/221073523-d9b3a8e2-f696-433f-b2c9-53ad05599383.png)
+<img width="578" alt="4mcrunning" src="https://user-images.githubusercontent.com/77585708/220981432-9d4d47dd-15f6-4c4a-8053-db6b1b26cbac.png"> 
+![1docker](https://user-images.githubusercontent.com/77585708/221073523-d9b3a8e2-f696-433f-b2c9-53ad05599383.png)
 ![2docker](https://user-images.githubusercontent.com/77585708/221073592-74e1c70e-bb1f-48ef-a261-f1de02375340.png)
-
 ![4docker](https://user-images.githubusercontent.com/77585708/221073644-ee99b06b-05e9-4bf6-bc8d-33efc6e9f014.png)
 ![3dockrt](https://user-images.githubusercontent.com/77585708/221073680-6b7857b3-d517-4695-ae8e-f48f3ec7288e.png)
