@@ -121,12 +121,13 @@ have to specify localhost in order to connect
   
 
   
-## homework
+  ## <b>HOMEWORK</b>
 
-##Run the dockerfile CMD as an external script
+## Run the dockerfile CMD as an external script
 - Modified the dockerfile to use RUN python ./python3flask.py instead of CMD
 - it ran but had to fiddle around a bit 
-  
+  ![image](https://user-images.githubusercontent.com/77585708/221247403-1f8e2eab-31a1-4da2-89a0-e2242550834f.png)
+
   
 ## Push and tag a image to DockerHub (they have a free tier)
 - Created a dockerhub account
