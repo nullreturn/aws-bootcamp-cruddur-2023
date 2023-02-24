@@ -147,4 +147,8 @@ Research best practices of Dockerfiles and attempt to implement it in your Docke
 <img width="578" alt="4mcrunning" src="https://user-images.githubusercontent.com/77585708/220981432-9d4d47dd-15f6-4c4a-8053-db6b1b26cbac.png">
 
  
-  
+  ![1docker](https://user-images.githubusercontent.com/77585708/221073523-d9b3a8e2-f696-433f-b2c9-53ad05599383.png)
+![2docker](https://user-images.githubusercontent.com/77585708/221073592-74e1c70e-bb1f-48ef-a261-f1de02375340.png)
+
+![4docker](https://user-images.githubusercontent.com/77585708/221073644-ee99b06b-05e9-4bf6-bc8d-33efc6e9f014.png)
+![3dockrt](https://user-images.githubusercontent.com/77585708/221073680-6b7857b3-d517-4695-ae8e-f48f3ec7288e.png)
