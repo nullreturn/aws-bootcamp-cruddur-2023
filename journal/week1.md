@@ -143,7 +143,13 @@ have to specify localhost in order to connect
 ##Use multi-stage building for a Dockerfile build
 
 ## Implement a healthcheck in the V3 Docker compose file
+I added healthchecks with  my docker-compose.yaml following documention from Docker. It will use curl to contact the the backend,frontend, and the database with different invertal,time out, and retries. I will have to play around with the values to make sure its appropriate for the service 
+  ![image](https://user-images.githubusercontent.com/77585708/221296704-4fd6d310-0eee-4ee9-9b51-c1b1911e3f03.png)
+I"m able to check docker docker ps. I can look further down the line to add it to some logging/siem solution to get alerts
+![image](https://user-images.githubusercontent.com/77585708/221296948-5187ce35-d8de-4085-88b8-35b5dbe2955e.png)
 
+
+  
 ## Research best practices of Dockerfiles and attempt to implement it in your Dockerfile
 
 ## Learn how to install Docker on your localmachine and get the same containers running outside of Gitpod / Codespaces
