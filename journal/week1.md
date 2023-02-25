@@ -41,6 +41,8 @@ curl -X GET http://localhost:4567/api/activities/home -H "Accept: application/js
 
 ### 
 <img width="1229" alt="10dockercomposefrontend1" src="https://user-images.githubusercontent.com/77585708/219997647-0c33e2cd-d645-4af7-bcb8-5c22fa3bf153.png">
+
+
 ![image](https://github.com/nullreturn/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week1/99.png)
 
 ## Containerize Frontend
