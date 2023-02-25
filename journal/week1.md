@@ -41,12 +41,9 @@ curl -X GET http://localhost:4567/api/activities/home -H "Accept: application/js
 
 ### 
 <img width="1229" alt="10dockercomposefrontend1" src="https://user-images.githubusercontent.com/77585708/219997647-0c33e2cd-d645-4af7-bcb8-5c22fa3bf153.png">
-![image](https://user-images.githubusercontent.com/77585708/219997855-6acaceb4-e762-4343-a120-7bfc466a134c.png)
-
-
+![image](https://github.com/nullreturn/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week1/99.png)
 
 ## Containerize Frontend
-<screeenshot1>
 
 
 ## Run NPM Install
@@ -58,12 +55,8 @@ notication tabs is not working so will have to  need to add endpoint for notific
 
 created a notifications_activites.py in order to create notification funciton, in backend-flask and used home_activities as a template.
 
-<screenshots>
-
-
 ### Frontend notifications endpoint changes
 Frontend uses react client then mounts the app into root. React router handles all the route. A new page had to be created in app.js so React will know how to route it 
-<screen5>
 
 I had to create the notificationpage because import NotificationsFeedPage from './pages/NotificationsFeedPage' did not exist within /pages along with a .css
 
