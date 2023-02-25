@@ -151,6 +151,6 @@ I have a Macbook with OSX so I've used that as a localmachine.
 - updated packages, installed docker then picked midnight commander in docker hub since its an easy demo
 - and the obligatory neofetch screenshot
 ![image](https://github.com/nullreturn/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week1/23.png)
-![image](https://github.com/nullreturn/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week1/24.png
+![image](https://github.com/nullreturn/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week1/24.png)
 ![image](https://github.com/nullreturn/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week1/25.png)
 
