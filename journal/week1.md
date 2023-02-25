@@ -1,42 +1,19 @@
-## Class Summary
-Create a new GitHub repo
-Launch the repo within a Gitpod workspace
-Configure Gitpod.yml configuration, eg. I’m VSCode Extensions
-Clone the frontend and backend repo
-Explore the codebases
-Ensure we can get the apps running locally
-Write a Dockerfile for each app
-Ensure we get the apps running via individual container
-Create a docker-compose file
-Ensure we can orchestrate multiple containers to run side by side
-Mount directories so we can make changes while we code
-
-
 # Week 1 — App Containerization
-![image](https://github.com/nullreturn/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week1/1pip3running.png)
 
 ## Containerize Backend
-
-
-### Run Python
-![image](https://github.com/nullreturn/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week1/1pip3running.png)
-![image](https://github.com/nullreturn/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week1/6run.png)
-
-## Add Dockerfile
-
-
-## Add Dockerfile
+We will run the backend a containerized services in docker. The backend is python/flask and linux
+![image](https://github.com/nullreturn/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week1/1.png)
 
 
 ## Build Container
+The container must be built first before running it 
 ![7bsuccess](https://user-images.githubusercontent.com/77585708/219995169-269d4575-aea6-42b9-b487-2a0d1ed7ceda.png)
 
 ## Run container
-container running with 
-![image](https://user-images.githubusercontent.com/77585708/220182039-e851c98b-7a73-4a2e-abaa-684bda7281b7.png)
+browsing the backend to see if the static data is available 
 ![image](https://user-images.githubusercontent.com/77585708/220182142-9eff27a8-477a-4466-87fb-34a4489241f5.png)
 
-##Get Container Images or Running Container Ids
+## Get Container Images or Running Container Ids
 can check if docker is a running process
 ''
 docker ps
@@ -64,7 +41,7 @@ curl -X GET http://localhost:4567/api/activities/home -H "Accept: application/js
 
 ### 
 <img width="1229" alt="10dockercomposefrontend1" src="https://user-images.githubusercontent.com/77585708/219997647-0c33e2cd-d645-4af7-bcb8-5c22fa3bf153.png">
-![cbrundocker](https://user-images.githubusercontent.com/77585708/219997855-6acaceb4-e762-4343-a120-7bfc466a134c.png)
+![image](https://user-images.githubusercontent.com/77585708/219997855-6acaceb4-e762-4343-a120-7bfc466a134c.png)
 
 
 
@@ -140,7 +117,7 @@ have to specify localhost in order to connect
 ![3dockerpushcorrect](https://user-images.githubusercontent.com/77585708/220498316-af490a5b-84f8-416c-8f58-8c6f8f08f54d.png)
   https://hub.docker.com/r/containofcontainers/awsbootcamp
 
-##Use multi-stage building for a Dockerfile build
+## Use multi-stage building for a Dockerfile build
 
 ## Implement a healthcheck in the V3 Docker compose file
 I added healthchecks with  my docker-compose.yaml following documention from Docker. It will use curl to contact the the backend,frontend, and the database with different invertal,time out, and retries. I will have to play around with the values to make sure its appropriate for the service 
@@ -161,6 +138,11 @@ I have a Macbook with OSX so I've used that as a localmachine.
 - used docker-compose up -d and also Visual Code studio (testing it out - pretty much the same as gitpod.io)
 - Then, was able to get the docker containers working 
   
+ ![image](https://user-images.githubusercontent.com/77585708/221073523-d9b3a8e2-f696-433f-b2c9-53ad05599383.png)
+![2docker](https://user-images.githubusercontent.com/77585708/221073592-74e1c70e-bb1f-48ef-a261-f1de02375340.png)
+![4docker](https://user-images.githubusercontent.com/77585708/221073644-ee99b06b-05e9-4bf6-bc8d-33efc6e9f014.png)
+![3dockrt](https://user-images.githubusercontent.com/77585708/221073680-6b7857b3-d517-4695-ae8e-f48f3ec7288e.png)
+  
   
 ## Launch an EC2 instance that has docker installed, and pull a container to demonstrate you can run your own docker processes. 
 - I've created an EC2 Ubuntu instance with free tier settings
@@ -168,10 +150,7 @@ I have a Macbook with OSX so I've used that as a localmachine.
 - ssh into the aws box
 - updated packages, installed docker then picked midnight commander in docker hub since its an easy demo
 - and the obligatory neofetch screenshot
-<img width="400" alt="2neofetch" src="https://user-images.githubusercontent.com/77585708/220981382-bb886fba-ec7c-402d-928f-ee013fc28f13.png">
-<img width="529" alt="3dockerinstallrun" src="https://user-images.githubusercontent.com/77585708/220981413-2c50f5c7-8d1d-4fe1-8119-80eb9b8263d4.png">
-<img width="578" alt="4mcrunning" src="https://user-images.githubusercontent.com/77585708/220981432-9d4d47dd-15f6-4c4a-8053-db6b1b26cbac.png"> 
-![1docker](https://user-images.githubusercontent.com/77585708/221073523-d9b3a8e2-f696-433f-b2c9-53ad05599383.png)
-![2docker](https://user-images.githubusercontent.com/77585708/221073592-74e1c70e-bb1f-48ef-a261-f1de02375340.png)
-![4docker](https://user-images.githubusercontent.com/77585708/221073644-ee99b06b-05e9-4bf6-bc8d-33efc6e9f014.png)
-![3dockrt](https://user-images.githubusercontent.com/77585708/221073680-6b7857b3-d517-4695-ae8e-f48f3ec7288e.png)
+![image](https://github.com/nullreturn/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week1/23.png)
+![image](https://github.com/nullreturn/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week1/24.png)
+![image](https://github.com/nullreturn/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week1/25.png)
+
