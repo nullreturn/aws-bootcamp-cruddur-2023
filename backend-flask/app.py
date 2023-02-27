@@ -36,6 +36,9 @@ tracer = trace.get_tracer(__name__)
 
 app = Flask(__name__)
 
+#XRAY
+XRayMiddleware(app, xray_recorder)
+
 # Initialize automatic instrumentation with Flask
 FlaskInstrumentor().instrument_app(app)
 RequestsInstrumentor().instrument()
