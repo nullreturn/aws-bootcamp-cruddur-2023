@@ -24,14 +24,14 @@ import logging
 from time import strftime
 
 # Configuring Logger to Use CloudWatch
-LOGGER = logging.getLogger(__name__)
-LOGGER.setLevel(logging.DEBUG)
-console_handler = logging.StreamHandler()
-cw_handler = watchtower.CloudWatchLogHandler(log_group='cruddur')
-LOGGER.addHandler(console_handler)
-LOGGER.addHandler(cw_handler)
+#LOGGER = logging.getLogger(__name__)
+#LOGGER.setLevel(logging.DEBUG)
+#console_handler = logging.StreamHandler()
+#cw_handler = watchtower.CloudWatchLogHandler(log_group='cruddur')
+#LOGGER.addHandler(console_handler)
+#LOGGER.addHandler(cw_handler)
 #watchtower
-LOGGER.info("test log")
+#LOGGER.info("test log")
 
 
 # app.py updates
@@ -51,15 +51,15 @@ trace.set_tracer_provider(provider)
 tracer = trace.get_tracer(__name__)
 
 # X-RAY ----------
-xray_url = os.getenv("AWS_XRAY_URL")
-xray_recorder.configure(service='backend-flask', dynamic_naming=xray_url)
+#xray_url = os.getenv("AWS_XRAY_URL")
+#xray_recorder.configure(service='backend-flask', dynamic_naming=xray_url)
 
 ################# APP FLASK #########################
 app = Flask(__name__)
 
 #XRAY
-xray_recorder.configure(service='Cruddur', dynamic_naming=xray_url)
-XRayMiddleware(app, xray_recorder)
+#xray_recorder.configure(service='Cruddur', dynamic_naming=xray_url)
+#XRayMiddleware(app, xray_recorder)
 
 # Initialize automatic instrumentation with Flask
 FlaskInstrumentor().instrument_app(app)
@@ -78,11 +78,11 @@ cors = CORS(
 )
 
 # Cloudlog -- Watchtower
-@app.after_request
-def after_request(response):
-    timestamp = strftime('[%Y-%b-%d %H:%M]')
-    LOGGER.error('%s %s %s %s %s %s', timestamp, request.remote_addr, request.method, request.scheme, request.full_path, response.status)
-    return response
+#@app.after_request
+#def after_request(response):
+#    timestamp = strftime('[%Y-%b-%d %H:%M]')
+#    LOGGER.error('%s %s %s %s %s %s', timestamp, request.remote_addr, request.method, request.scheme, request.full_path, response.status)
+#    return response
 
 
 @app.route("/api/message_groups", methods=['GET'])
