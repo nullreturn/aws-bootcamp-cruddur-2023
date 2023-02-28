@@ -31,6 +31,8 @@ cw_handler = watchtower.CloudWatchLogHandler(log_group='cruddur')
 LOGGER.addHandler(console_handler)
 LOGGER.addHandler(cw_handler)
 LOGGER.info("some message")
+LOGGER.info("test log")
+
 
 # app.py updates
     
