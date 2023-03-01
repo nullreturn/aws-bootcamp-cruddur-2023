@@ -19,4 +19,5 @@ After finishing the Cloudwatch logs - disabled it as per video so won't get bill
 #### Configured app.py
 
 
-
+<img width="1260" alt="Screenshot 2023-02-28 at 7 58 57 PM" src="https://user-images.githubusercontent.com/77585708/222017944-b1cb5e6b-94b3-460b-bde1-63f413135df6.png">
+<img width="1260" alt="Screenshot 2023-02-28 at 7 58 57 PM" src="https://user-images.githubusercontent.com/77585708/222019160-d668b982-967e-4d6b-b5fa-9e6bc86e6a6b.png">
