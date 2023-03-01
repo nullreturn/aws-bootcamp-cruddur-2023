@@ -1,7 +1,9 @@
 # Week 2 — Distributed Tracing
 
 ## HONEYCOMB
+<img width="1635" alt="Screenshot 2023-02-28 at 8 29 31 PM" src="https://user-images.githubusercontent.com/77585708/222021611-3d162b8d-6b3a-44e6-ae20-078aec901096.png">
 
+<img width="1635" alt="Screenshot 2023-02-28 at 8 32 41 PM" src="https://user-images.githubusercontent.com/77585708/222022001-470c2514-9eae-48ec-b47f-19063bf6b0cd.png">
 
 
 ## CloudWatch Logs
