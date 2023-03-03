@@ -7,11 +7,11 @@ tracer = trace.get_tracer("home.activities")
 class HomeActivities:
   def run():
     with tracer.start_as_current_span("home-activites-mock-data"):
-    #logger.info("HomeActivities")
-    #with tracer.start_as_current_span("home-activites-mock-data"):    
-    #span = trace.get_current_span()
-    #now = datetime.now(timezone.utc).astimezone()
-    #span.set_attribute("app.now", now.isoformat())
+      #logger.info("HomeActivities")
+      #with tracer.start_as_current_span("home-activites-mock-data"):    
+      #span = trace.get_current_span()
+      #now = datetime.now(timezone.utc).astimezone()
+      #span.set_attribute("app.now", now.isoformat())
       span = trace.get_current_span()
       now = datetime.now(timezone.utc).astimezone()
       span.set_attribute("app.now", now.isoformat())
@@ -46,8 +46,8 @@ class HomeActivities:
       },
       {
         'uuid': '248959df-3079-4947-b847-9e0892d1bab4',
-        'handle':  'Mr Harry Fordo',
-        'message': 'Youre a Wizard Jerry',
+        'handle':  'Garek',
+        'message': 'My dear doctor, I am just simple tailor',
         'created_at': (now - timedelta(hours=1)).isoformat(),
         'expires_at': (now + timedelta(hours=12)).isoformat(),
         'likes': 0,
@@ -55,6 +55,4 @@ class HomeActivities:
       }
       ]
       span.set_attribute("app.result_length", len(results))
-      #span.set_attribute("user.id", len(results))
       return results
-Footer
