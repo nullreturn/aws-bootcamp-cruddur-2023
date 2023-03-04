@@ -17,8 +17,8 @@ services:
       REACT_APP_AWS_PROJECT_REGION: "${AWS_DEFAULT_REGION}"
       #REACT_APP_AWS_COGNITO_IDENTITY_POOL_ID: ""
       REACT_APP_AWS_COGNITO_REGION: "${AWS_DEFAULT_REGION}"
-      process.env.REACT_APP_AWS_USER_POOLS_ID: "ca-central-1_OsOTbBcKw"
-      REACT_APP_CLIENT_ID: "f83bpdk82o1sh620jppcc0j51"
+      process.env.REACT_APP_AWS_USER_POOLS_ID: "ca-central-1_vHHxZAZ6B"
+      REACT_APP_CLIENT_ID: "11942mfevf614mtom1cjmnrmc9"
     build: ./backend-flask
     ports:
       - "4567:4567"
