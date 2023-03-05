@@ -14,8 +14,8 @@ services:
       AWS_ACCESS_KEY_ID: "${AWS_ACCESS_KEY_ID}"
       AWS_SECRET_ACCESS_KEY: "${AWS_SECRET_ACCESS_KEY}"
       ROLLBAR_ACCESS_TOKEN: "${ROLLBAR_ACCESS_TOKEN}"
-      REACT_APP_AWS_USER_POOLS_ID: "ca-central-1_vHHxZAZ6B"
-      REACT_APP_CLIENT_ID: "11942mfevf614mtom1cjmnrmc9"
+      #REACT_APP_AWS_USER_POOLS_ID: "ca-central-1_vHHxZAZ6B"
+      #REACT_APP_CLIENT_ID: "11942mfevf614mtom1cjmnrmc9"
     build: ./backend-flask
     ports:
       - "4567:4567"
