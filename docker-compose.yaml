@@ -16,6 +16,8 @@ services:
       ROLLBAR_ACCESS_TOKEN: "${ROLLBAR_ACCESS_TOKEN}"
       REACT_APP_AWS_USER_POOLS_ID: "ca-central-1_YyjUqIg4l"
       REACT_APP_CLIENT_ID: "1ceuaomhidlljka5vcbtkdgdt0"
+      AWS_COGNITO_USER_POOL_ID: "ca-central-1_YyjUqIg4l"
+      AWS_COGNITO_USER_POOL_CLIENT_ID: "1ceuaomhidlljka5vcbtkdgdt0"    
     build: ./backend-flask
     ports:
       - "4567:4567"
