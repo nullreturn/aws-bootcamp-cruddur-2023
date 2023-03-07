@@ -16,7 +16,7 @@ from services.create_message import *
 from services.show_activity import *
 
 #COGNITO LIB
-from lib.cognito_jwt_token import CognitoJwtToken
+from lib.cognito_jwt_token import CognitoJwtToken, extract_access_token, TokenVerifyError
 
 # AWS XRAY
 from aws_xray_sdk.core import xray_recorder
@@ -162,6 +162,7 @@ def data_create_message():
   return
 
 @app.route("/api/activities/home", methods=['GET'])
+#@xray_recorder.capture('activities_home')
 def data_home():
   #app.logger.debug('AUTH HEADER')
   #app.logger.debug(
