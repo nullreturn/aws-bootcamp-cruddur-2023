@@ -1,5 +1,13 @@
 #! /usr/bin/bash
 
-schema_path
 echo "db-schema-load"
+
+
+if [ "$1" = "prod" ]; then
+  echo "Running in production mode"
+  URL=$PROD_CONNECTION_URL
+else
+  URL=$CONNECTION_URL
+fi
+
 psql $CONNECTION_URL cruddur < /workspace/aws-bootcamp-cruddur-2023/backend-flask/db/schema.sql
