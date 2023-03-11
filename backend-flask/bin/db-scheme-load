@@ -1,1 +1,5 @@
 #! /usr/bin/bash
+
+
+echo "db-schema-load"
+psql $CONNECTION_URL cruddur < /workspace/aws-bootcamp-cruddur-2023/backend-flask/db/schema.sql
