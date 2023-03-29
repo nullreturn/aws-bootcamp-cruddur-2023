@@ -16,4 +16,3 @@ class ShowActivities:
       }
     }]
     return results
-    #results
